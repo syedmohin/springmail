@@ -17,4 +17,9 @@ public class StudentController {
         mailServices.sendNotification(student);
         return "Thanks you for details";
     }
+
+    @RequestMapping("")
+    public String getName(){
+        return "Syed MOhiuddin";
+    }
 }
