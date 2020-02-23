@@ -20,6 +20,6 @@ public class StudentController {
 
     @RequestMapping("")
     public String getName(){
-        return "Syed MOhiuddin";
+        return "Syed Mohiuddin";
     }
 }
